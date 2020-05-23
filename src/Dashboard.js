@@ -28,14 +28,17 @@ export const Dashboard = () => {
                 </thead>
                 <tbody>
                   <tr>
-                    <th scope="row">5</th>
-                    <td>Saturday, May 23rd, 2020</td>
-                    <td>React Native GitHub Client App</td>
-                  </tr>
-                  <tr>
                     <th scope="row">6</th>
                     <td>Saturday, May 30th, 2020</td>
-                    <td>Let me know on Twitter!</td>
+                    <td>CyberStefan.com Dashboard</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">7</th>
+                    <td>Saturday, June 6th, 2020</td>
+                    <td>
+                      TBD: let me know on Twitter! Possibly React Native app
+                      with TypeScript.
+                    </td>
                   </tr>
                 </tbody>
               </Table>

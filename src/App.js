@@ -1,4 +1,5 @@
 import React from "react";
+import { Container } from "reactstrap";
 import "./App.css";
 import { Navbar } from "./Navbar";
 import { Header } from "./Header";
@@ -9,9 +10,11 @@ function App() {
   return (
     <>
       <Navbar />
-      <Header />
-      <Dashboard />
-      <Footer />
+      <Container>
+        <Header />
+        <Dashboard />
+        <Footer />
+      </Container>
     </>
   );
 }
