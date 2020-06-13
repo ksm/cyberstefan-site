@@ -1,3 +1,12 @@
+# CHANGELOG
+
+### [1.1.1](https://github.com/ksm/cyberstefan-site/compare/v1.1.0...v1.1.1) (2020-06-13)
+
+
+### Bug Fixes
+
+* smol semantic-release tweaks, repo url update ([7a1f99e](https://github.com/ksm/cyberstefan-site/commit/7a1f99ec29967d0f6ee3ce7f18f043c242f73dd4))
+
 CHANGELOG
 
 ## [1.1.0](https://github.com/ksm/cyberstefan-site/compare/v1.0.1...v1.1.0) (2020-06-13)
