@@ -8,7 +8,7 @@ export const Navbar = () => {
       <NavbarBrand>
         CyberStefan Stream Dashboard{" "}
         <Badge
-          href="https://github.com/ksm/cyberstefan-site/blob/master/CHANGELOG.md"
+          href="https://github.com/cyberstefantv/cyberstefan-site/blob/master/CHANGELOG.md"
           color="primary"
         >
           v{version}
