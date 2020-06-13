@@ -1,5 +1,6 @@
 import React from "react";
 import { Navbar as RSNavbar, NavbarBrand, Badge } from "reactstrap";
+import { version } from "../package.json";
 
 export const Navbar = () => {
   return (
@@ -10,7 +11,7 @@ export const Navbar = () => {
           href="https://github.com/ksm/cyberstefan-site/blob/master/CHANGELOG.md"
           color="primary"
         >
-          v0.2.0
+          v{version}
         </Badge>
       </NavbarBrand>
     </RSNavbar>
