@@ -1,5 +1,13 @@
 CHANGELOG
 
+## [1.1.0](https://github.com/ksm/cyberstefan-site/compare/v1.0.1...v1.1.0) (2020-06-13)
+
+
+### Features
+
+* pull navbar version number from package.json ([ea5b9ef](https://github.com/ksm/cyberstefan-site/commit/ea5b9ef2f61c9e256ce88558b4854fda086153cd))
+* **semantic-release:** bump package.json version on semantic-release ([520b961](https://github.com/ksm/cyberstefan-site/commit/520b961d63ff588ef9da375050c6a2b9cc8dbaf8))
+
 ### [1.0.1](https://github.com/ksm/cyberstefan-site/compare/v1.0.0...v1.0.1) (2020-06-13)
 
 
