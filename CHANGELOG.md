@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## [1.2.0](https://github.com/ksm/cyberstefan-site/compare/v1.1.1...v1.2.0) (2020-06-14)
+
+
+### Features
+
+* display semantic-release badge next to version ([2096166](https://github.com/ksm/cyberstefan-site/commit/2096166b4c1c8a5d386a864269a29a5248433003))
+* update and rewrite bits on website, add icon and signature ([0cc9134](https://github.com/ksm/cyberstefan-site/commit/0cc9134dfe2b77c45b16fa1b6bf5f18a98705731))
+
 ### [1.1.1](https://github.com/ksm/cyberstefan-site/compare/v1.1.0...v1.1.1) (2020-06-13)
 
 
