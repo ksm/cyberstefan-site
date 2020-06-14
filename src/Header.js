@@ -15,7 +15,7 @@ export const Header = () => {
         </p>
         <p>
           I stream every Saturday at 4 PM ET (that's 1 PM PT, or 22:00 CET if
-          you're hailing from Europe).
+          you're viewing from Europe).
         </p>
         <p>
           The idea behind this dashboard is to visualize and almost gamify the
