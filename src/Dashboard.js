@@ -9,6 +9,7 @@ import {
   Progress,
   Container,
 } from "reactstrap";
+import { OctocatIcon } from "./components/OctocatIcon";
 
 const Widget = (props) => (
   <div class="my-4">
@@ -39,16 +40,19 @@ export const Dashboard = () => {
           </thead>
           <tbody>
             <tr>
-              <th scope="row">6</th>
-              <td>Saturday, May 30th, 2020</td>
-              <td>CyberStefan.com Dashboard</td>
+              <th scope="row">9</th>
+              <td>June 20th, 2020</td>
+              <td>
+                More CyberStefan.com dashboard features: move data to JSON, add
+                projects/milestones/streams.
+              </td>
             </tr>
             <tr>
-              <th scope="row">7</th>
-              <td>Saturday, June 6th, 2020</td>
+              <th scope="row">10</th>
+              <td>June 27th, 2020</td>
               <td>
-                TBD: let me know on Twitter! Possibly React Native app with
-                TypeScript.
+                TBD: let me know via Twitter if you want to see something
+                specific!
               </td>
             </tr>
           </tbody>
@@ -64,19 +68,29 @@ export const Dashboard = () => {
           </thead>
           <tbody>
             <tr>
-              <td>CyberStefan.com Twitch Stream Dashboard</td>
+              <td>
+                CyberStefan.com Twitch Stream Dashboard{" "}
+                <a href="https://github.com/cyberstefantv/cyberstefan-site">
+                  <OctocatIcon />
+                </a>
+              </td>
               <td class="px-2">
                 <Progress
                   style={{ "min-width": 100 }}
                   color="success"
-                  value="10"
+                  value="20"
                 />
               </td>
             </tr>
             <tr>
-              <td>React Native GitHub Client App</td>
+              <td>
+                React Native GitHub Client App{" "}
+                <a href="https://github.com/cyberstefantv/cyberhub-app">
+                  <OctocatIcon />
+                </a>
+              </td>
               <td class="px-2">
-                <Progress color="success" value="0" />
+                <Progress color="success" value="10" />
               </td>
             </tr>
           </tbody>
