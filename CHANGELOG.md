@@ -1,5 +1,27 @@
 # CHANGELOG
 
+## [1.3.0](https://github.com/cyberstefantv/cyberstefan-site/compare/v1.2.0...v1.3.0) (2020-06-27)
+
+
+### Features
+
+* **dashboard:** display upcoming streams from json data ([8f9491a](https://github.com/cyberstefantv/cyberstefan-site/commit/8f9491a167b7180cca508cbea5a1dc79274a76c6))
+* **dashboard:** represent projects as json, calculate progress ([9176ab9](https://github.com/cyberstefantv/cyberstefan-site/commit/9176ab9653c4b4b3faae5f3109a720eacd7eac23))
+
+
+### Bug Fixes
+
+* **dashboard:** fix javascript console warnings ([52d8702](https://github.com/cyberstefantv/cyberstefan-site/commit/52d8702a8abdf7925941e95d5859644751a3ee5f))
+* fix remaining safari javascript console warnings and errors ([51a8dfd](https://github.com/cyberstefantv/cyberstefan-site/commit/51a8dfd027741e5946517747e46ae8d1b285d5b7))
+* **semantic-release:** fix semantic-release failing due to missing exec dep ([8e2c64d](https://github.com/cyberstefantv/cyberstefan-site/commit/8e2c64dbcda58538e37243f60182538430f856d1))
+
+
+### Other Changes
+
+* add netlify badge to readme ([5fab7f4](https://github.com/cyberstefantv/cyberstefan-site/commit/5fab7f42942cceb7dd06e6a38665a0cbfb47f76f))
+* improve language ([87b6996](https://github.com/cyberstefantv/cyberstefan-site/commit/87b6996070444c51e677d1cd6c53b4bffca36ca2))
+* **dashboard:** extract widgets into dedicated components ([246698d](https://github.com/cyberstefantv/cyberstefan-site/commit/246698d0509d55ba22c6595c89319f61da0b568f))
+
 ## [1.2.0](https://github.com/ksm/cyberstefan-site/compare/v1.1.1...v1.2.0) (2020-06-14)
 
 
