@@ -12,7 +12,7 @@ import {
 import { OctocatIcon } from "./components/OctocatIcon";
 
 const Widget = (props) => (
-  <div class="my-4">
+  <div className="my-4">
     <Row>
       <Col>
         <Card>
@@ -74,9 +74,9 @@ export const Dashboard = () => {
                   <OctocatIcon />
                 </a>
               </td>
-              <td class="px-2">
+              <td className="px-2">
                 <Progress
-                  style={{ "min-width": 100 }}
+                  style={{ minWidth: 100 }}
                   color="success"
                   value="20"
                 />
@@ -89,7 +89,7 @@ export const Dashboard = () => {
                   <OctocatIcon />
                 </a>
               </td>
-              <td class="px-2">
+              <td className="px-2">
                 <Progress color="success" value="10" />
               </td>
             </tr>
