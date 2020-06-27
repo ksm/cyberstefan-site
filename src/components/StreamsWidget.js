@@ -1,34 +1,49 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Table } from "reactstrap";
 import { Widget } from "./Widget";
+import streams from "../data/streams.json";
 
-export const StreamsWidget = () => (
-  <Widget title="Upcoming Streams">
-    <Table striped>
-      <thead>
-        <tr>
-          <th>#</th>
-          <th>When</th>
-          <th>What</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th scope="row">9</th>
-          <td>June 20th, 2020</td>
-          <td>
-            More CyberStefan.com dashboard features: move data to JSON, add
-            projects/milestones/streams.
-          </td>
-        </tr>
-        <tr>
-          <th scope="row">10</th>
-          <td>June 27th, 2020</td>
-          <td>
-            TBD: let me know via Twitter if you want to see something specific!
-          </td>
-        </tr>
-      </tbody>
-    </Table>
-  </Widget>
-);
+const intl = Intl.DateTimeFormat();
+
+export const StreamsWidget = () => {
+  const [upcomingStreams, setUpcomingStreams] = useState([]);
+
+  useEffect(() => {
+    const byUpcomingOnly = (fromDate) => (stream) => {
+      const streamDate = new Date(stream.date);
+      return streamDate.getTime() >= fromDate.getTime();
+    };
+
+    const now = new Date();
+    now.setUTCHours(0, 0, 0, 0);
+
+    setUpcomingStreams(streams.filter(byUpcomingOnly(now)));
+  }, [setUpcomingStreams]);
+
+  return (
+    <Widget title="Upcoming Streams">
+      <Table striped>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>When</th>
+            <th>What</th>
+          </tr>
+        </thead>
+        <tbody>
+          {upcomingStreams.map((stream) => (
+            <tr key={stream.id}>
+              <th scope="row">{stream.id}</th>
+              <td>{intl.format(new Date(stream.date))}</td>
+              <td>
+                <b>{stream.title}</b>
+                <br />
+                {stream.description}
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </Table>
+    </Widget>
+  );
+};
