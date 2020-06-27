@@ -4,9 +4,14 @@ import signature from "./assets/signature.svg";
 
 export const Header = () => {
   return (
-    <div class="mt-3">
+    <div className="mt-3">
       <Jumbotron>
-        <h2>👋 Hey there,</h2>
+        <h2>
+          <span role="img" aria-labelledby="jsx-a11y/accessible-emoji">
+            👋
+          </span>{" "}
+          Hey there,
+        </h2>
         <p>
           This is a dashboard for the CyberStefan coding stream:{" "}
           <a href="https://www.twitch.tv/cyberstefan">twitch.tv/cyberstefan</a>.
