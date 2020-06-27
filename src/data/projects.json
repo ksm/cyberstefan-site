@@ -12,6 +12,14 @@
       {
         "name": "represent data with JSON",
         "status": "complete"
+      },
+      {
+        "name": "show past streams under dropdown",
+        "status": "incomplete"
+      },
+      {
+        "name": "show the milestones (maybe under a dropdown)",
+        "status": "incomplete"
       }
     ]
   },
