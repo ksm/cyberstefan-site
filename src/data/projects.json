@@ -1,0 +1,31 @@
+[
+  {
+    "id": 0,
+    "name": "CyberStefan.com Twitch Stream Dashboard",
+    "github": "https://github.com/cyberstefantv/cyberstefan-site",
+    "minimum_milestones": 10,
+    "milestones": [
+      {
+        "name": "semantic-release",
+        "status": "complete"
+      },
+      {
+        "name": "represent data with JSON",
+        "status": "complete"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "name": "React Native GitHub Client App",
+    "github": "https://github.com/cyberstefantv/cyberhub-app",
+    "minimum_milestones": 10,
+    "milestones": [
+      {
+        "name": "proof-of-concept",
+        "description": "Talk with GitHub GraphQL API and show something.",
+        "status": "complete"
+      }
+    ]
+  }
+]
