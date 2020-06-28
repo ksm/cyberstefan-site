@@ -14,13 +14,20 @@
         "status": "complete"
       },
       {
-        "name": "show past streams under dropdown",
+        "name": "show past streams under collapse toggle",
         "status": "incomplete"
       },
       {
-        "name": "show the milestones (maybe under a dropdown)",
+        "name": "show milestones under projects",
         "status": "incomplete"
       }
+    ],
+    "ideas": [
+      "consider adding a backend to allow for more dynamic features",
+      "add ability to vote on milestones and/or projects (hypemeter?)",
+      "rewrite in TypeScript",
+      "make it look nicer! theme upgrades or animation/springy upgrades",
+      "rebuild into a more responsive layout that works well wide screen and on mobile"
     ]
   },
   {
