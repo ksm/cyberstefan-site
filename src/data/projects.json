@@ -14,7 +14,7 @@
         "status": "complete"
       },
       {
-        "name": "show past streams under collapse toggle",
+        "name": "show past streams under collapse toggle, also collapse the jumbotron",
         "status": "incomplete"
       },
       {
