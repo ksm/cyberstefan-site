@@ -1,20 +1,26 @@
 [
   {
     "id": 8,
-    "date": "2020-06-13",
+    "date": "2020-06-13T21:00:00",
     "title": "More CyberStefan.com dashboard features",
     "description": "Dashboard refactoring and more work around semantic-release."
   },
   {
     "id": 9,
-    "date": "2020-06-27",
-    "title": "post-WWDC no-fomo coding stream",
+    "date": "2020-06-27T21:00:00",
+    "title": "Post-WWDC no-fomo coding stream",
     "description": "Build out representing data as JSON in the stream dashboard."
   },
   {
     "id": 10,
-    "date": "2020-07-04",
-    "title": "TBD",
-    "description": "Let me know via Twitter if you want to see something specific."
+    "date": "2020-07-04T21:00:00",
+    "title": "Chill post-vacay stream",
+    "description": "Just chatting and adding a collapse to the header of the dashboard."
+  },
+  {
+    "id": 11,
+    "date": "2020-07-11T21:00:00",
+    "title": "More stream dashboard work in JavaScript",
+    "description": "Show past streams under collapse toggle. Show milestones under projects."
   }
 ]
