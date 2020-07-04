@@ -1,5 +1,17 @@
 # CHANGELOG
 
+## [1.4.0](https://github.com/cyberstefantv/cyberstefan-site/compare/v1.3.0...v1.4.0) (2020-07-04)
+
+
+### Features
+
+* **header:** add ability to collapse intro ([c7620c8](https://github.com/cyberstefantv/cyberstefan-site/commit/c7620c89fb42d3cbf3d4eebfadcf4e24a493446a))
+
+
+### Bug Fixes
+
+* **streams-widget:** fix incorrect dates ([89d4357](https://github.com/cyberstefantv/cyberstefan-site/commit/89d435759059250f3c029710b9cc5e6ad0236b50))
+
 ## [1.3.0](https://github.com/cyberstefantv/cyberstefan-site/compare/v1.2.0...v1.3.0) (2020-06-27)
 
 
