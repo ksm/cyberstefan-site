@@ -1,5 +1,24 @@
 # CHANGELOG
 
+## [1.5.0](https://github.com/cyberstefantv/cyberstefan-site/compare/v1.4.0...v1.5.0) (2020-07-11)
+
+
+### Features
+
+* show milestones under projects ([ee1c802](https://github.com/cyberstefantv/cyberstefan-site/commit/ee1c802b11363ba44eabdcd3379732e9bf86cf10))
+
+
+### Bug Fixes
+
+* handle missing milestones ([90403e5](https://github.com/cyberstefantv/cyberstefan-site/commit/90403e5f5edb34dc99dd29219e4531b811007589))
+
+
+### Other Changes
+
+* make everything look nicer, remove needless headers ([ac361e2](https://github.com/cyberstefantv/cyberstefan-site/commit/ac361e214c487921e531970d68122e9fc8b4994a))
+* remove one container from hierarchy thus streamline margins ([72718cd](https://github.com/cyberstefantv/cyberstefan-site/commit/72718cd147aece70d8419c4c860a6e4e50596ad0))
+* use card header instead of title in widget ([ed5c8b0](https://github.com/cyberstefantv/cyberstefan-site/commit/ed5c8b0905f23b055bea1f5924460b5827c0e254))
+
 ## [1.4.0](https://github.com/cyberstefantv/cyberstefan-site/compare/v1.3.0...v1.4.0) (2020-07-04)
 
 
