@@ -1,15 +1,13 @@
 import React from "react";
-import { Card, CardBody, CardTitle, Row, Col } from "reactstrap";
+import { Card, CardBody, CardHeader, Row, Col } from "reactstrap";
 
 export const Widget = (props) => (
   <div className="my-4">
     <Row>
       <Col>
         <Card>
-          <CardBody>
-            <CardTitle>{props.title}</CardTitle>
-            {props.children}
-          </CardBody>
+          <CardHeader>{props.title}</CardHeader>
+          <CardBody>{props.children}</CardBody>
         </Card>
       </Col>
     </Row>
