@@ -21,6 +21,12 @@
     "id": 11,
     "date": "2020-07-11T21:00:00",
     "title": "More stream dashboard work in JavaScript",
-    "description": "Show past streams under collapse toggle. Show milestones under projects."
+    "description": "Show milestones under projects. Style improvements."
+  },
+  {
+    "id": 12,
+    "date": "2020-07-18T21:00:00",
+    "title": "JavaScript coding with React",
+    "description": "Thinking about getting into another project. However unless I'm super inspired to do something specific, I'll fallback on tweaking the dashboard (mostly cause it's enjoyable!)."
   }
 ]

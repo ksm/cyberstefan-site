@@ -3,7 +3,7 @@
     "id": 0,
     "name": "CyberStefan.com Twitch Stream Dashboard",
     "github": "https://github.com/cyberstefantv/cyberstefan-site",
-    "minimum_milestones": 10,
+    "minimum_milestones": null,
     "milestones": [
       {
         "name": "semantic-release",
@@ -18,11 +18,11 @@
         "status": "complete"
       },
       {
-        "name": "show past streams under collapse toggle",
-        "status": "incomplete"
+        "name": "show milestones under projects",
+        "status": "complete"
       },
       {
-        "name": "show milestones under projects",
+        "name": "show past streams under collapse toggle",
         "status": "incomplete"
       },
       {
@@ -31,11 +31,11 @@
       }
     ],
     "ideas": [
-      "consider adding a backend to allow for more dynamic features",
-      "add ability to vote on milestones and/or projects (hypemeter?)",
+      "try to use a List Group instead of a table for coding projects",
       "rewrite in TypeScript",
-      "make it look nicer! theme upgrades or animation/springy upgrades",
-      "rebuild into a more responsive layout that works well wide screen and on mobile"
+      "add Jest and some tests",
+      "consider adding a backend to allow for more dynamic features",
+      "responsive layout that makes use of desktop space while looking great on mobile"
     ]
   },
   {
@@ -43,7 +43,7 @@
     "name": "React Native GitHub Client App",
     "github": "https://github.com/cyberstefantv/cyberhub-app",
     "minimum_milestones": 10,
-    "milestones": [
+    "milestones_disabled": [
       {
         "name": "proof-of-concept",
         "description": "Talk with GitHub GraphQL API and show something.",
@@ -56,7 +56,7 @@
     "name": "URL shortener",
     "github": null,
     "minimum_milestones": 10,
-    "milestones": [
+    "milestones_disabled": [
       {
         "name": "proof-of-concept",
         "description": "Get something working. I've always wanted to write a URL shortener.",
