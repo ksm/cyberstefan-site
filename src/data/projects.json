@@ -46,5 +46,18 @@
         "status": "complete"
       }
     ]
+  },
+  {
+    "id": 2,
+    "name": "URL shortener",
+    "github": null,
+    "minimum_milestones": 10,
+    "milestones": [
+      {
+        "name": "proof-of-concept",
+        "description": "Get something working. I've always wanted to write a URL shortener.",
+        "status": "incomplete"
+      }
+    ]
   }
 ]
