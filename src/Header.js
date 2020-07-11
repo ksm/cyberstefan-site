@@ -8,7 +8,7 @@ export const Header = () => {
 
   return (
     <div className="mt-3">
-      <Jumbotron className="py-4">
+      <Jumbotron className="py-4 mb-4">
         <h2>
           <span role="img" aria-labelledby="jsx-a11y/accessible-emoji">
             👋

@@ -22,18 +22,11 @@ export const StreamsWidget = () => {
 
   return (
     <Widget title="Upcoming Streams">
-      <Table striped>
-        <thead>
-          <tr>
-            <th>#</th>
-            <th>When</th>
-            <th>What</th>
-          </tr>
-        </thead>
+      <Table>
         <tbody>
           {upcomingStreams.map((stream) => (
             <tr key={stream.id}>
-              <th scope="row">{stream.id}</th>
+              <th scope="row">#{stream.id}</th>
               <td>{intl.format(new Date(stream.date))}</td>
               <td>
                 <b>{stream.title}</b>

@@ -1,13 +1,13 @@
 import React from "react";
-import { Card, CardBody, CardHeader, Row, Col } from "reactstrap";
+import { Card, CardHeader, Row, Col } from "reactstrap";
 
 export const Widget = (props) => (
-  <div className="my-4">
+  <div className="mb-3">
     <Row>
       <Col>
         <Card>
           <CardHeader>{props.title}</CardHeader>
-          <CardBody>{props.children}</CardBody>
+          {props.children}
         </Card>
       </Col>
     </Row>

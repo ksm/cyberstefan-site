@@ -52,13 +52,7 @@ const MilestoneList = ({ milestones }) => {
 
 export const ProjectsWidget = () => (
   <Widget title="Coding Projects">
-    <Table striped>
-      <thead>
-        <tr>
-          <th>Project</th>
-          <th>Progress</th>
-        </tr>
-      </thead>
+    <Table>
       <tbody>
         {projects.map((project) => (
           <tr key={project.id}>
