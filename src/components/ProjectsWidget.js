@@ -5,12 +5,14 @@ import { OctocatIcon } from "./OctocatIcon";
 import projects from "../data/projects.json";
 
 const calculateProjectProgress = (project) => {
-  const allMilestonesCount =
-    project.minimum_milestones > project.milestones.length
-      ? project.minimum_milestones
-      : project.milestones.length;
+  const milestoneCount = project.milestones?.length ?? 0;
 
-  const completedMilestonesCount = project.milestones.filter(
+  const allMilestonesCount =
+    project.minimum_milestones > milestoneCount
+      ? project.minimum_milestones
+      : milestoneCount;
+
+  const completedMilestonesCount = project.milestones?.filter(
     (milestone) => milestone.status === "complete"
   ).length;
 
@@ -21,7 +23,11 @@ const MilestoneList = ({ milestones }) => {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => setIsOpen(!isOpen);
 
-  const list = milestones.map((milestone, index) => {
+  if (!milestones) {
+    return null;
+  }
+
+  const list = milestones?.map((milestone, index) => {
     const id = `checkmark-${index}`;
     return (
       <div key={index}>
