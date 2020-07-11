@@ -1,5 +1,5 @@
-import React from "react";
-import { Table, Progress } from "reactstrap";
+import React, { useState } from "react";
+import { Table, Progress, Button } from "reactstrap";
 import { Widget } from "./Widget";
 import { OctocatIcon } from "./OctocatIcon";
 import projects from "../data/projects.json";
@@ -15,6 +15,39 @@ const calculateProjectProgress = (project) => {
   ).length;
 
   return (completedMilestonesCount / allMilestonesCount) * 100;
+};
+
+const MilestoneList = ({ milestones }) => {
+  const [isOpen, setIsOpen] = useState(false);
+  const toggle = () => setIsOpen(!isOpen);
+
+  const list = milestones.map((milestone, index) => {
+    const id = `checkmark-${index}`;
+    return (
+      <div key={index}>
+        <label htmlFor={id}>
+          <input
+            type="checkbox"
+            id={id}
+            name="milestone"
+            checked={milestone.status === "complete"}
+            style={{ verticalAlign: "middle" }}
+            disabled
+          />{" "}
+          {milestone.name}
+        </label>
+      </div>
+    );
+  });
+
+  return (
+    <div>
+      <Button className="p-0" color="link" onClick={toggle}>
+        <small>{isOpen ? "Hide milestones…" : "Show milestones…"}</small>
+      </Button>
+      {isOpen && list}
+    </div>
+  );
 };
 
 export const ProjectsWidget = () => (
@@ -34,6 +67,7 @@ export const ProjectsWidget = () => (
               <a href={project.github}>
                 <OctocatIcon />
               </a>
+              <MilestoneList milestones={project.milestones} />
             </td>
             <td className="px-2">
               <Progress
