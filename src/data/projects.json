@@ -24,6 +24,10 @@
       {
         "name": "show milestones under projects",
         "status": "incomplete"
+      },
+      {
+        "name": "add storybook",
+        "status": "incomplete"
       }
     ],
     "ideas": [
