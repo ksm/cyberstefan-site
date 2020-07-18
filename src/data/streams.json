@@ -26,7 +26,13 @@
   {
     "id": 12,
     "date": "2020-07-18T21:00:00",
-    "title": "JavaScript coding with React",
-    "description": "Thinking about getting into another project. However unless I'm super inspired to do something specific, I'll fallback on tweaking the dashboard (mostly cause it's enjoyable!)."
+    "title": "No stream today",
+    "description": "No stream today. Enjoy your weekend y'all!"
+  },
+  {
+    "id": 12,
+    "date": "2020-07-25T21:00:00",
+    "title": "JavaScript learning: react-navigation custom transitions and react-native animation",
+    "description": "I want to see how easy or hard it is to have custom transitions in react-navigation. I'd also like to brush up on animations in react-native."
   }
 ]
