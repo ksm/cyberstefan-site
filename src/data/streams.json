@@ -30,7 +30,7 @@
     "description": "No stream today. Enjoy your weekend y'all!"
   },
   {
-    "id": 12,
+    "id": 13,
     "date": "2020-07-25T21:00:00",
     "title": "JavaScript learning: react-navigation custom transitions and react-native animation",
     "description": "I want to see how easy or hard it is to have custom transitions in react-navigation. I'd also like to brush up on animations in react-native."
