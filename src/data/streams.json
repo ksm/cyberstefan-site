@@ -26,13 +26,13 @@
   {
     "id": 12,
     "date": "2020-07-25T21:00:00",
-    "title": "Late stream or no stream",
-    "description": "Not feeling super great today, but if I get better I might stream."
+    "title": "Learning about Native Modules in React Native",
+    "description": "Short stream. Want to build my own UUID library that uses platform APIs, but first I need to learn about Native Modules."
   },
   {
     "id": 13,
     "date": "2020-08-01T21:00:00",
-    "title": "JavaScript learning: react-navigation custom transitions and react-native animation",
+    "title": "JavaScript learning: react-navigation custom transitions, maybe some animation APIs too",
     "description": "I want to see how easy or hard it is to have custom transitions in react-navigation. I'd also like to brush up on animations in react-native."
   }
 ]
