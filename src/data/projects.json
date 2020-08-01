@@ -40,6 +40,26 @@
   },
   {
     "id": 1,
+    "name": "react-navigation custom transitions",
+    "github": "https://github.com/cyberstefantv/navigation-shenanigans-app",
+    "minimum_milestones": null,
+    "milestones": [
+      {
+        "name": "react-navigation transition basics",
+        "status": "complete"
+      },
+      {
+        "name": "get better at the react-native Animated API",
+        "status": "incomplete"
+      },
+      {
+        "name": "use Animated to build something custom",
+        "status": "incomplete"
+      }
+    ]
+  },
+  {
+    "id": 2,
     "name": "React Native GitHub Client App",
     "github": "https://github.com/cyberstefantv/cyberhub-app",
     "minimum_milestones": 10,
@@ -52,7 +72,7 @@
     ]
   },
   {
-    "id": 2,
+    "id": 3,
     "name": "URL shortener",
     "github": null,
     "minimum_milestones": 10,
