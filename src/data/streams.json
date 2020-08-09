@@ -40,5 +40,11 @@
     "date": "2020-08-08T21:00:00",
     "title": "react-native learning: Animated API",
     "description": "I am diving into react-navigation's custom transitions, but those are based on Animated, so I'd like to understand that a bit better."
+  },
+  {
+    "id": 15,
+    "date": "2020-08-15T21:00:00",
+    "title": "react-native learning: Animated API, part 2",
+    "description": "I read up on the basics of the Animated API, but I'm not done going through all of the official docs yet."
   }
 ]
