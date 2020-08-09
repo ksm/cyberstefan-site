@@ -22,8 +22,8 @@ export const Header = () => {
           so socially. Please drop by and say hi!
         </p>
         <p>
-          I stream every Saturday at 4 PM ET (that's 1 PM PT or 22:00 CET if
-          you're viewing from Europe).
+          I stream almost every Saturday after 4 PM ET (that's 1 PM PT or 22:00
+          CET if you're viewing from Europe).
         </p>
         <Collapse isOpen={isOpen}>
           <div>
